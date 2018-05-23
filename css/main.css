@@ -10,33 +10,33 @@
 	Typography
 -------------------------------------------------------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Cutive%20Mono:400);
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
 p {
-	font-size: 14px;
-	line-height: 22.4px;
-	color: #6c7279;
+	font-size: 16px;
+	color: #3c3c3c;
 }
 h1 {
-	font-size: 65px;
-	color: #2d3033;
+	font-size: 72px;
+	color: #3c3c3c;
+	font-weight: bold;
 }
 h2 {
-	font-size: 40px;
-	color: #2d3033;
+	font-size: 48px;
+	color: #3c3c3c;
 }
 h3 {
-	font-size: 28px;
-	color: #2d3033;
+	font-size: 24px;
+	color: #3c3c3c;
 	font-weight: 300;
 }
 h4 {
-	font-size: 22px;
-	color: #2d3033;
+	font-size: 20px;
+	color: #3c3c3c;
 	font-weight: 400;
 }
 h5 {
-	font-size: 14px;
-	color: #2d3033;
+	font-size: 18px;
+	color: #3c3c3c;
 	font-weight: 700;
 }
 .btn {
@@ -63,6 +63,7 @@ h5 {
 -------------------------------------------------------------------------------*/
 a {
 	color: #e84545;
+	text-decoration: underline;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -72,7 +73,7 @@ a:hover, a:focus {
 	transition: background-color, color, 0.3s;
 }
 body {
-	font-family: "Cutive Mono";
+	font-family: 'Source Serif Pro', serif;
 	font-weight: 400;
 	color: #fff;
 }
@@ -144,7 +145,6 @@ ul li {
 	color: rgba(0, 0, 0, 1);
 	font-size: 16px;
 	margin-left: 40px;
-	letter-spacing: -1px;
 }
 .navigation a:hover, .navigation a.active {
 	color: #000;
@@ -294,8 +294,7 @@ ul li {
 .hero-content {
 }
 .hero h1 {
-	font-size: 48px;
-	text-transform: uppercase;
+	font-size: 72 px;
 }
 .hero h4 {
 	font-weight: 400;
@@ -308,8 +307,9 @@ ul li {
 -------------------------------------------------------------------------------*/
 #portfolio .portfolio-item {
 	right: 0;
+	float: left;
 	margin: 0 0 20px;
-	padding: 0 10px;
+	padding: 10px 20px;
 }
 #portfolio .portfolio-item .portfolio-link {
 	display: block;
@@ -336,16 +336,17 @@ ul li {
 	height: 20px;
 	margin-top: -12px;
 	text-align: center;
-	font-size: 20px;
+	font-size: 16px;
 	color: #fff;
+
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-	margin-top: -12px;
+	margin-top: 12px;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3 {
 	margin: 0;
 	color: #e9eaed;
-	font-size: 17px;
+	font-size: 16px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
 }
